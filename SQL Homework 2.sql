@@ -105,7 +105,7 @@ select * from salary;
 
  create table employee_salary(
 id serial primary key,
-employee_id int unique not null,
+employee_id int unique not null, 
 salary_id int not null
 );
 
