@@ -168,7 +168,6 @@ create table roles_employee(
 
 select * from roles_employee;
 
--- 11) Наполнить таблицу roles_employee 40 строками
 
 insert into roles_employee (id, employee_id, role_id)
 values  (default, 40, 1),
